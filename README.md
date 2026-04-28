@@ -6,6 +6,8 @@ reproducing Figures 4 and 5 of:
 > Kalir S & Alon U. **Using a Quantitative Blueprint to Reprogram the Dynamics
 > of the Flagella Gene Network.** *Cell* **117**, 713–720 (2004).
 
+**[View Interactive Demo Report](https://vivarium-collective.github.io/flagella-blueprint/)** — model GFP/Gmax dynamics, recovered FlhDC and FliA activity profiles, response-time hierarchy with the analytic Nq curve, and the β₁ / FlhDC induction reprogramming experiments.
+
 A single `FlagellaProcess` implements the bilinear SUM-gate model
 
 ```
