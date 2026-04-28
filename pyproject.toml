@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "flagella-blueprint"
+version = "0.1.0"
+description = "Process-bigraph dynamic model of the E. coli class 2 flagella gene network (Kalir & Alon, Cell 2004)"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "process-bigraph>=0.0.10",
+    "bigraph-schema",
+    "numpy",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "matplotlib", "bigraph-viz"]
+
+[tool.setuptools.packages.find]
+include = ["flagella_blueprint*"]
